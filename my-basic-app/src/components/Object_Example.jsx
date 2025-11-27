@@ -62,8 +62,8 @@ function UserCard() {
        <h2>Complex Object in Array Example</h2>
 
       {products.map((p) => (
-        <div key={p.name} className="border p-3 my-2 rounded">
-          <h3>{p.name}</h3>
+        <div key={p.id} className="border p-3 my-2 rounded">
+          <h3>{p.id}</h3>
           <p>Price: {p.price}</p>
           <p>RAM: {p.specs.ram}</p>
           <p>Storage: {p.specs.storage}</p>
