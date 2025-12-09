@@ -50,7 +50,7 @@ export default function SessionDemo() {
           <hr />
 
           <p className="text-muted">
-            🔁 Refresh page → Data stays <br />
+            🔁  Refresh page → Data stays <br />
             ❌ Close tab → Data is deleted
           </p>
         </div>
