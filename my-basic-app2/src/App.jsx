@@ -13,6 +13,11 @@ import SessionDemo from './components/SessionDemo';
 import WithoutCallBack from './components/WithoutCallBack';
 import WithCallBack from './components/WithUseCallBack';
 import WithCallBackChild from './components/WithCallBackChild';
+import SessionLogout from './components/SessionLogout';
+import CookiesEX from './components/CookiesEX';
+import AxiosEx from './components/AxiosEx';
+import AxiosExCreateUser from './components/AxiosExCreateUser';
+import CrudAxios from './components/CrudAxios';
 
 function App() {
 
@@ -33,12 +38,17 @@ function App() {
 
           <AllInOne/>
           <ThemeChangeAllInOne/> */}
-          <WithoutCallBack/>
+          {/* <WithoutCallBack/> */}
           {/* <WithCallBack/>
           <WithCallBackChild/> */}
-          <Todoarray/>
-          <TodoCrud/>
-          <SessionDemo/>
+          {/* <Todoarray/>
+          <TodoCrud/> */}
+          {/* <SessionDemo/>
+          <SessionLogout/>
+          <CookiesEX/> */}
+          {/* <AxiosEx/> */}
+          {/* <AxiosExCreateUser/> */}
+          <CrudAxios/>
       </div>
     </>
   )
