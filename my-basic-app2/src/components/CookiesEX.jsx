@@ -21,7 +21,7 @@ export default function CookiesEX() {
     }
 
     // cookie will expire after 1 day
-    document.cookie = `student=${input}; expires=Fri, 31 Dec 2025 12:00:00 UTC; path=/`;
+    document.cookie = `student=${input}; expires=Tue, 02 Jun 2026 10:00:00 UTC UTC UTC; path=/`;
 
     setName(input); // update UI
     setInput("");  // clear textbox

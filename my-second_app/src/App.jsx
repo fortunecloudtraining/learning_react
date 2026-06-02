@@ -7,8 +7,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
-import Function_Example from "./Function_Example"
-import Event_Example from "./Event_Example"
+// import Function_Example from "./Function_Example"
+// import Event_Example from "./Event_Example"
 
 function App() {
   return (

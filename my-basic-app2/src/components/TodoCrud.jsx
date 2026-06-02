@@ -31,8 +31,14 @@ export default function TodoCrud() {
   };
 
   // 🔹 Delete
-  const remove = (i) => save(list.filter((_, index) => index !== i));
+const remove = (i) => {
 
+  const newList = list.filter((item, index) => {
+    return index !== i;
+  });
+
+  save(newList);
+};
   // 🔹 Edit
   const editTask = (i) => {
     setTask(list[i]);

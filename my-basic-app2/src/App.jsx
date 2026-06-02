@@ -43,12 +43,12 @@ function App() {
           <WithCallBackChild/> */}
           {/* <Todoarray/>
           <TodoCrud/> */}
-          {/* <SessionDemo/>
+          <SessionDemo/>
           <SessionLogout/>
-          <CookiesEX/> */}
+          <CookiesEX/>
           {/* <AxiosEx/> */}
           {/* <AxiosExCreateUser/> */}
-          <CrudAxios/>
+          {/* <CrudAxios/> */}
       </div>
     </>
   )

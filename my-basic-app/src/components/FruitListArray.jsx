@@ -17,7 +17,7 @@ function FruitListArray() {
   return (
     <div className="container my-4">
       <h2>Fruit List (Array Example)</h2>
-
+ {/* curent value and current position */}
       <ul>
         {fruits.map((item, index) => (
           <li key={index}>{item}</li>
@@ -46,3 +46,31 @@ function FruitListArray() {
 }
 
 export default FruitListArray;
+
+// map():
+
+// loops through array
+// returns new JSX elements
+// mostly used for dynamic UI rendering in React
+// const Filter_Example = () => {
+
+//   const names = ["Anand", "Rahul", "Amit", "Sneha"];
+
+//   const result = names.filter((name) => {
+//     return name.startsWith("A");
+//   });
+
+//   return (
+//     <div className="container my-5">
+
+//       <h1>Filter Example</h1>
+
+//       {result.map((item, index) => (
+//         <h3 key={index}>{item}</h3>
+//       ))}
+
+//     </div>
+//   );
+// };
+
+// export default Filter_Example;

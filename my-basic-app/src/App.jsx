@@ -26,25 +26,31 @@ import SimpleForm from './components/SimpleTextInputHandling'
 import MultiInputForm from './components/MultiInputFormHandling'
 import LiveTime from './components/LiveTime'
 import UncontrolledForm from './components/UseRefFormHandling'
+import ProductList from './components/useEffectapliList'
+import UseRefSimple from './components/UseRefSimple'
+import UseRefInputValue from './components/UseRefInputValue'
 
 function App() {
-const student = { name: "Anand", age: 25, city: "Pune" };
-const subjects = ["HTML", "CSS", "JavaScript"];
-const showalert = () => {
-  alert("Hello from Parent!");
-};
+//  const student = { name: "Anand", age: 25, city: "Pune" };
+// const subjects = ["HTML", "CSS", "JavaScript"];
+// const showalert = () => {
+// alert("Hello from Parent!");
+// };
   return (
     <>
     {/* <UseStateExample/>
     <UserList/>
     <TimerExample/>
-    <LiveTime/> */}
-    <SimpleForm/>
-    <MultiInputForm/>
+    <LiveTime/>
+    <ProductList/> */}
+    {/* <SimpleForm/> */}
+    {/* <MultiInputForm/> */}
+    <UseRefInputValue/>
+    <UseRefSimple/>
     <UncontrolledForm/>
     {/* <UseStateCounter/>
-    <InputExample/>
-    <ToggleExample/>
+    <InputExample/> */}
+    {/* <ToggleExample/>
     <ArrayExample/>
     <HideShow/>
     <div className="container">
@@ -64,13 +70,13 @@ const showalert = () => {
       <LikeButton title="React Tutorial Post" />
        <LikeButton title="anand Tutorial Post" />
       
-    </div>
+    </div> */}
     
-    */}
+   
 
       {/* <h1>Welcomt to FCT</h1> */}
-      {/* <Function_Example/>
-      <Event_Example/> */}
+      {/* <Function_Example/> */}
+      {/* <Event_Example/> */}
       {/* <FruitListArray/> */}
       {/* <UserCard/> */}
       {/* <ConditionalStatement/> */}
@@ -78,14 +84,14 @@ const showalert = () => {
         <h2>Passing STRING as props</h2>
         <Message text="Hello Students 👋" />
         <Message text="Welcome to React Props!" />
-      </div>
+      </div> */}
 
-      <div className='container text-primary'>
+      {/* <div className='container text-primary'>
         <Student name="Anand" age={25} city="Pune" />
         <Student name="Ravi" age={22} city="Mumbai" />
         <Student name="Priya" age={23} city="Delhi" />
-      </div>
-      <div className="container">
+      </div> */}
+      {/* <div className="container">
         <div className="row">
           <div className="col-md-4">
             <Card title="React Props" description="Props allow data flow." />
@@ -95,21 +101,21 @@ const showalert = () => {
             <Card title="Bootstrap Card" description="Styled using Bootstrap." />
           </div>
         </div>
-      </div>
-      <div className="container">
-      <PassingNumberProps marks={85}/>
+      </div> */}
+      {/* <div className="container"> */}
+      {/* <PassingNumberProps marks={85}/> */}
 
-      <PassingBoolean isAdmin={true}/>
+      {/* <PassingBoolean isAdmin={true}/> */}
 
-      <PassingObject info={student}/>
+      {/* <PassingObject info={student}/> */}
 
-      <Passingrarray list={subjects} />
-        <h2>Passing Function as prop</h2>
+      {/* <Passingrarray list={subjects} /> */}
+        {/* <h2>Passing Function as prop</h2>
       <PassingFunction clickMe ={showalert}/>
       <PassingImage photo={img1}/>
-      </div>
+      </div> */}
 
-       <div className="container mt-5">
+       {/* <div className="container mt-5">
       <h1 className="text-center mb-4">Multiple Accordions (Props Example)</h1>
 
      

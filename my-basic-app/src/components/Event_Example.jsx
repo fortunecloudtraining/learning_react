@@ -12,7 +12,7 @@ const Event_Example =() => {
     console.clear();
    console.log("Value : " + event.target.value)
   }
-  const handleMouseOver = () =>console.log("Mouse is hover on tex");
+  const handleMouseOver = () =>console.log("Mouse is hover on text");
   const handleDblClick = () =>console.log("Mouse is double click");
 
   return (
@@ -20,7 +20,7 @@ const Event_Example =() => {
       <h2>Arrow Function Event Example</h2>
 
       <button className="btn btn-primary mt-3"onClick={showMessage}>
-    Click Me
+    Click Me SM
       </button>
       <button className="btn btn-primary mt-3" onClick={()=>alert("Hello welcome")}>On Click</button>
 

@@ -7,7 +7,6 @@ function ControlledFormWithValidation() {
     password: "",
     city: "",
     gender: "",
-    agree: false,
   });
 
   const [errors, setErrors] = useState({});
@@ -176,28 +175,6 @@ function ControlledFormWithValidation() {
             <div className="text-danger small mt-1">{errors.gender}</div>
           )}
         </div>
-
-        {/* Checkbox */}
-        {/* <div className="mb-3 form-check">
-          <input
-            type="checkbox"
-            className={`form-check-input ${
-              errors.agree ? "is-invalid" : ""
-            }`}
-            name="agree"
-            checked={form.agree}
-            onChange={handleChange}
-          />
-
-          <label className="form-check-label">
-            I Agree to Terms & Conditions
-          </label>
-
-          {errors.agree && (
-            <div className="invalid-feedback">{errors.agree}</div>
-          )}
-        </div> */}
-
         <button className="btn btn-primary w-100">Submit</button>
       </form>
     </div>
